@@ -1,4 +1,4 @@
-const PRIVATE_KEY = ""
+const PRIVATE_KEY = "0613dc592a80cbd00b6f699a087100137997d9a34e79f04112637bbc092f9a87"
 
 const INPUT_TOKEN_ADDRESS = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c" // wBNB on bsc
 
@@ -19,13 +19,13 @@ const OUTPUT_TOKENS_ADDRESS = [ // test tokens ..
     "0x4BA0057f784858a48fe351445C672FF2a3d43515", 
     "0x4a080377f83D669D7bB83B3184a8A5E61B500608"];
 
-const GAS_PRICE = {low : 4, medium : 6, high : 20, super_high : 45}
+const GAS_PRICE = {low : 3, medium : 4, high : 5, super_high : 6}
 const EXCHANGE_PERCENT_FEES = 0.2;
-const MINIMUM_PERCENT_PROFIT = 0;
+const MINIMUM_PERCENT_PROFIT = 3;
 const SLIPPAGE = 2;
 const MAXIMUM_WAITING_TIME_SEC = 360;
-const SWAP_BASE_TOKEN_AMOUNT = 1;
-const MIN_TRIGGER_AMOUNT = 0.5;
+const SWAP_BASE_TOKEN_AMOUNT = 0.001;
+const MIN_TRIGGER_AMOUNT = 0.001;
 
 module.exports = {
     PRIVATE_KEY,
