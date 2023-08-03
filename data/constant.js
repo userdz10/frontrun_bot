@@ -5,18 +5,18 @@ const PANCAKE_FACTORY_ABI = require("../abi/factory.js");
 const PANCAKE_POOL_ABI = require("../abi/pool.js");
 const PANCAKE_ROUTER_ABI = require("../abi/router.js");
 
-const NETWORK = "rinkeby";
-const CHAIN_SYMBOL = "ETH";
+const NETWORK = "bsc";
+const CHAIN_SYMBOL = "BNB";
 
 
-const HTTP_PROVIDER_LINK = ``;
-const WEBSOCKET_PROVIDER_LINK = ``;
+const HTTP_PROVIDER_LINK = `https://serene-proud-emerald.bsc.discover.quiknode.pro/20b41596ad7f5a5244340b99e696345520428a05/`;
+const WEBSOCKET_PROVIDER_LINK = `wss://serene-proud-emerald.bsc.discover.quiknode.pro/20b41596ad7f5a5244340b99e696345520428a05/`;
 
 
 const ETHERSCAN_API = "";
 
 const TRIGGERED_METHOD = ["swapTokensForExactTokens", "swapETHForExactTokens","swapExactTokensForTokens", "swapExactETHForTokens"];
-const GAS_LIMIT = 500000;
+const GAS_LIMIT = 300000;
 
 module.exports = {
   NETWORK,
