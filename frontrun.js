@@ -22,7 +22,7 @@ const {
   ETHERSCAN_API,
   TRIGGERED_METHOD,
   GAS_LIMIT
-} = require("./data/constants.js");
+} = require("data/constants.js");
 
 const { 
   PRIVATE_KEY,
